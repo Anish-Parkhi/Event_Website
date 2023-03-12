@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+
+.speaker{
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(./Images//image.png);
+    width: 58%;
+    margin: auto;
+    padding: 2%;
+    border-radius: 10px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(80%);
+}
+
+.main-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content{
+    width: 80%;
+    padding: 2%;
+    margin-left: 4px;
+}
+
+.image-div{
+    /* filter: brightness(140%); */
+    height: 80%;
+}
+
+.image1{
+    margin-top: 40px;
+    border-radius: 10px !important;
+    width: 287px;
+    height: 265px;
+   
+}
+
+.linkdin-icon{
+    position: relative;
+    top: 6.5px;
+    margin-right: 2px;
+}
+
+.linkdin{
+    margin-left: 10px;
+}
+
+.sp2{
+    margin-top: 5%;
+}
+.ct{
+    background: linear-gradient( rgba(0, 0, 0, .6), rgba(0, 0, 0, 0.5) ),url(Images/image1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(80%);
+}
+
+.name{
+    background-image: linear-gradient(90deg, #4F5AD8 40%, #79EAFF 51.56%, #57F4F7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-size: 38px;
+    line-height: 41px;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+}

@@ -1,0 +1,21 @@
+.FAQ{
+    width: 60%;
+    padding: 6px;
+    margin: auto;
+    background-color: #101010;
+    border-radius: 10px;
+    margin-top: 4%;
+}
+.FAQ-div{
+    padding: 4%;
+    padding-bottom: 1%;
+    padding-top: 2%;
+}
+.FAQ-head{
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+.space{
+    margin-bottom: 8%;
+}
