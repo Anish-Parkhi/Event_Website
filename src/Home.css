@@ -75,12 +75,25 @@
     padding: 5px;
 }
 
-.arrow{
-    width: 22px;
-    height: 22px;
+/* .arrow{
+    border: 2px solid red;
+    font-size: 30px;
+    transform: scale(1.2);
+} */
+
+.reg-button{
+    background-color: #4F5AD8;
+    color: white;
+    border-radius: 10px;
+    width: 14%;
+    padding: 8px;
+    font-size: 16px;
+    font-family: 'Space Grotesk', sans-serif;
+    cursor: pointer;
 }
 
 .button-div > p{
     margin-top: 5px;
     font-size: 12px;
 }
+

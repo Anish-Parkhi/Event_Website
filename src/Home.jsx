@@ -32,12 +32,22 @@ function Home() {
             <div className='para2'>
                 <p>Lorem ipsum dolor sit amet consectetur. Ridiculus mi volutpat bibendum in proin quisque. Semper a sollicitudin accumsan gravida elementum mattis duis vel. Vel sapien venenatis ornare ipsum vestibulum. Nulla urna id risus consectetur fermentum urna faucibus sagittis facilisi. Nullam leo feugiat.</p>
             </div>
-            <div className='button-div'>
-                <button className='button'><span>Register Now</span>
-                <ArrowCircleRightIcon className='arrow'/>
-                </button>
-                <p>Hurry! seats filling up fast</p>
+            <button className="reg-button">
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "center",
+              alignItems: "center",
+              gap: "10px",
+            }}
+          >
+            <div>Register Now</div>
+            <div>
+              <ArrowCircleRightIcon style={{ marginTop: "2px" }} />
             </div>
+          </div>
+        </button>
         </div>
     </>
   )
