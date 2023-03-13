@@ -47,12 +47,24 @@ function Speaker() {
                 </div>
             </div>
         </div>
-            <div className='button-div'>
-                <button className='button'><span>Register Now</span>
-                <ArrowCircleRightIcon className='arrow'/>
-                </button>
-                <p>Hurry! seats filling up fast</p>
+        <div className='btn-div'>
+            <button className="reg-button">
+            <div
+                style={{
+                display: "flex",
+                flexDirection: "row",
+                justifyContent: "center",
+                alignItems: "center",
+                gap: "10px",
+                }}
+            >
+                <div>Register Now</div>
+                <div>
+                <ArrowCircleRightIcon style={{ marginTop: "2px" }} />
+                </div>
             </div>
+            </button>
+        </div>
     </>
   )
 }
